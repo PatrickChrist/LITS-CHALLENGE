@@ -28,7 +28,7 @@ Codalab only accepts zip archives. Please zip all your test-segmentation-X.nii f
 After applying steps 2.1-2.5 you are able to upload your submission to the Codalab submission system. Go to https://competitions.codalab.org/competitions/15595#participate-submit_results and upload your zip file.
 ## 4. Check your results
 After uploading your zip file, the plattform is unzipping your data and running the evaluation program. This can take up to serval hours.
-You can check your current status and error reports here.
+You can check your current status and error reports here.![Image of Codalab Submission](https://github.com/PatrickChrist/LITS-CHALLENGE/blob/PatrickChrist-guide/codalab.png)
 ## Important note from the evaluation page as a reminder
 However, to foster performance we provide liver masks during training time. During test time only the medical volumes not no liver mask will be available.
 That means there will be no liver mask for the test data.
