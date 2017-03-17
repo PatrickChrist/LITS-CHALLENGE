@@ -27,7 +27,7 @@ if __name__ == "__main__":
         # Check if shapes match
 
         # Construct valid Nii Image
-        img_to_save = nb.Nifti1Image(pred_data.astype(volume.get_data_dtype), volume.get_affine(), header=volume.header)
+        img_to_save = nb.Nifti1Image(pred_data.astype(volume.get_data_dtype()), volume.get_affine(), header=volume.header)
         save_name = 'test-segmentation-' + str(case) + '_fixed.nii'
         # Saving
         print 'Saving %s' % save_name
